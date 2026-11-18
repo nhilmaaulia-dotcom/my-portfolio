@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Neng Hilma Aulia</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Hilma<span>.</span></a>
+
+        <button class="menu-toggle"
+                aria-label="Buka menu"
+                aria-expanded="false">☰</button>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+
+    <!-- Page Heading -->
+    <section class="page-heading">
+        <p class="subtitle">GET IN TOUCH ♡</p>
+        <h1>Contact <span>Me</span></h1>
+        <p>Jangan ragu untuk menghubungi saya melalui informasi berikut.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+
+            <h2>Let's Talk!</h2>
+
+            <p>
+                Jika ingin bertanya, berdiskusi, atau bekerja sama,
+                silakan hubungi saya melalui kontak di bawah ini.
+            </p>
+
+            <div class="contact-item">
+                <span>📧</span>
+                <div>
+                    <h3>Email</h3>
+                    <p>nhilmaaulia@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span>📍</span>
+                <div>
+                    <h3>Location</h3>
+                    <p>Serang, Banten</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nama Lengkap"
+                required>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Alamat Email"
+                required>
+
+            <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subjek Pesan"
+                required>
+
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tulis pesan kamu di sini..."
+                required></textarea>
+
+            <button type="submit" class="btn">
+                Kirim Pesan ♡
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Made with ♡ by Neng Hilma Aulia</p>
+    <p>&copy; <span class="year"></span> All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
